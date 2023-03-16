@@ -77,7 +77,8 @@ nav a:hover {
     /* media query add below
     flex-direction: column; */
     align-items: center;
-    max-width: 90%;
+    max-width: 100%;
+    margin-right:20px;
 }
 
 .about-side h2 {
@@ -183,7 +184,7 @@ nav a:hover {
     transform: translate(-50%, -50%);
     font-size: 18px;
     color: #fff;
-    opacity: 0;
+    opacity: .5;
     font-family: 'montserrat', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
@@ -243,8 +244,49 @@ nav a:hover {
     background-color: #333;
     color: #fff;
 }
-    /* justify-content: center; */
+
+
+@media screen and (max-width: 767px) {
+    header {
+        font-size: 70%;
+        padding: 30px;
+    padding-top: 40px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul a {
+        font-size: 80%;
+    }
+
+    .about-side h2 {
+        font-size: 60%;
+    }
+    .about-main  {
+        flex-direction: column;    
+    }
+
+    .about-main p {
+        font-size: 70%;
+    }
+
+    .work-side h2 {
+        font-size: 20px;
+    }
+
+    .contact-side h2 {
+        font-size: 20px;
+    }
+
+    .contact-main li {
+        font-size: 80%;
+    }
 }
+/* justify-content: center; */
+
 
 /*for media query make sure to reduce text size for about <p>*/
 
