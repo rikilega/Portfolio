@@ -24,7 +24,7 @@ This project is the first webpage I have made without starter code. The purpos i
 
 If you would like to view the live portfolio webpage please [click here](https://rikilega.github.io/portfolio/).
 
-HORISEON screenshot-
+Sample webpage image-
 
 <img src="assets\images\pic.PNG" width="640px">
 
