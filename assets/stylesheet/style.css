@@ -263,7 +263,9 @@ nav a:hover {
 
     nav ul {
         display: flex;
+        
         justify-content: center;
+        margin-left: 25px;
         transition: all 0.2s ease;
     }
 
@@ -273,10 +275,11 @@ nav a:hover {
 
     #about {
         padding: 20px;
-        padding-left: 50px; 
+        padding-left: 58px; 
     }
     .about-side h2 {
         font-size: 60%;
+        margin-right: 28px; 
     }
     .about-main  {
         flex-direction: column;    
@@ -288,6 +291,18 @@ nav a:hover {
 
     .work-side h2 {
         font-size: 20px;
+        text-align: center;
+    }
+
+    .work-img {
+        flex: 1 1 25%;
+        justify-content: center;
+        position: relative;
+    }
+
+    #special {
+        font-size: 21px;
+        padding-left: 10%;
     }
 
     .contact-side h2 {
@@ -295,8 +310,26 @@ nav a:hover {
         transition: all 0.3s ease;
     }
 
+    .work-img p {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+        color: #fff;
+        opacity: .5;
+        font-family: 'montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .work-img:hover p {
+        opacity: 1;
+        font-weight: bolder;
+        transition: 0.5s;
+        font-size: 11px;
+    }
+
     .contact-main li {
-        font-size: 80%;
+        font-size: 60%;
         transition: all 0.3s ease;
     }
 }
