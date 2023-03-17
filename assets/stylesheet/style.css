@@ -50,9 +50,7 @@ nav a {
 /*nav text enlarge, change color, and add shadow when hovered over with point*/
 nav a:hover {
     transform: scale(1.5);
-    /* font-size: 107%; */
     text-shadow: 1px 1px 1px #ddd;
-    /* color:#e9e5bf; */
     transition: 0.1s;
 }
 
@@ -75,8 +73,6 @@ nav a:hover {
 .about-main {
     flex: 2;
     display: flex;
-    /* media query add below
-    flex-direction: column; */
     align-items: center;
     max-width: 100%;
     margin-right:20px;
@@ -95,10 +91,8 @@ nav a:hover {
     display: flex;
     flex: 1;
     justify-content: center;
-    /* max-width: 600px; */
-    /* max-height: 300px;  */
     margin-right: 10px;
-    /* padding-bottom: 30%; */
+
 }
 
 .about-img img {
@@ -106,8 +100,6 @@ nav a:hover {
     width: 50%;
     min-width: 300px;
     height: auto;
-    /* margin-right: 25px; */
-    
 }
 
 .about-main p {
@@ -136,12 +128,7 @@ nav a:hover {
 }
 
 .work-side {
-    /* display: inline-block; */
-    
-    /* flex: 1 1 auto;*/
     text-align: center;
-    /* margin-right: auto; */
-    /* margin-left: auto; */
     margin-bottom: 30px;
 }
 
@@ -161,13 +148,6 @@ nav a:hover {
     position: relative;
 }
 
-.work-img img {
-    width: 100%;
-
-
-}
-
-
 /*make first img the large image*/
 .work-img:first-child {
     flex-basis: 100%;
@@ -186,7 +166,7 @@ nav a:hover {
     transform: translate(-50%, -50%);
     font-size: 18px;
     color: #fff;
-    opacity: .5;
+    opacity: 0.5;
     font-family: 'montserrat', Tahoma, Geneva, Verdana, sans-serif; 
 }
 

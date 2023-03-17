@@ -28,4 +28,4 @@ HORISEON screenshot-
 
 <img src="assets\images\pic.PNG" width="640px">
 
-Html code is found [here](https://github.com/rikilega/refactoring-html-css/blob/main/index.html) and the css stylesheet [here](https://github.com/rikilega/refactoring-html-css/blob/main/assets/css/style.css).
+Html code is found [here](https://github.com/rikilega/portfolio/blob/main/index.html) and the css stylesheet [here](https://github.com/rikilega/portfolio/blob/main/assets/stylesheet/style.css).
