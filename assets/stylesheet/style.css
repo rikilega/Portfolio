@@ -142,6 +142,10 @@ nav a:hover {
     color: #333
 }
 
+.work-img img{
+    width: 100%;
+}
+
 .work-img {
     flex: 1 1 25%;
     justify-content: center;
